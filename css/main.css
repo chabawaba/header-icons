@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Merriweather, serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: #d05c2e;
+  margin: 0;
+  border-color: #a63f38;
+  border-style: solid;
+  padding: 0, .5em 0, .4rem 0;
+}
+
+li {
+  font-size: 1.125rem;
+  font-family: Merriweather, serif;
+  font-weight: regular;
+  color: #fff;
+  background-color: #d05c2e;
+  padding: 0, .5em 0, .4rem 0;
+  margin: 0;
+  border-color: #a63f38;
+  border-style: solid;
+  list-style-type: none;
+}
+
+img {
+  width: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
