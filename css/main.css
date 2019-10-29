@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  color: #fff;
 }
 
 *, *::before, *::after {
@@ -11,25 +12,23 @@ h1 {
   font-size: 2rem;
   font-family: Merriweather, serif;
   font-weight: bold;
-  color: #fff;
-  background-color: #d05c2e;
   margin: 0;
-  border-color: #a63f38;
-  border-style: solid;
-  padding: 0, .5em 0, .4rem 0;
+  padding: 0;
 }
 
 li {
   font-size: 1.125rem;
   font-family: Merriweather, serif;
-  font-weight: regular;
-  color: #fff;
-  background-color: #d05c2e;
-  padding: 0, .5em 0, .4rem 0;
+  font-style: normal;
+  padding: 0;
   margin: 0;
   border-color: #a63f38;
   border-style: solid;
   list-style-type: none;
+  align-items: stretch;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
 }
 
 img {
@@ -38,8 +37,6 @@ img {
 
 ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 header {
@@ -48,5 +45,22 @@ header {
 
 div {
   display: flex;
+  justify-content: space-between;
+  margin: 0;
   align-items: center;
+}
+
+a:hover {
+  background-color: #a63f38;
+  padding: .5em 2.5em;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 2.5em;
 }
